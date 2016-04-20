@@ -673,7 +673,7 @@ def checkoutAndDeployUI(config, repoName,appDeploymentName):
 		os.chdir(repoName)
 		print ("Changed directory to "+os.getcwd())
 		statementStatus  = subprocess.check_output("npm install",shell=True)
-		statementStatus  = subprocess.check_output("bower install", shell=True)
+		statementStatus  = subprocess.check_output("bower install --config.strict-ssl=false", shell=True)
 		statementStatus  = subprocess.check_output("grunt dist", shell=True)
 		configureManifest(config, ".")
 		configureConnectServer(config,"./tasks/options/")
