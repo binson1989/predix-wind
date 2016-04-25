@@ -1,4 +1,4 @@
-Predix RMD Reference App 
+Predix Wind
 =====================
 
 Welcome to the Predix Remote Monitoring & Diagnostics (RMD) Reference Application.  The Predix platform enables you to create applications with an Industrial Internet focus and allows you to manage and scale those applications as they are consumed by your end users.  
