@@ -38,8 +38,10 @@
 			<id>optional</id>
 			<active>true</active>
 			<protocol>http</protocol>
-			<host>proxy-src.research.ge.com</host>
-			<port>8080</port>
+			<!--<host>proxy-src.research.ge.com</host>-->
+			<!--<host>sjc1intproxy01.crd.ge.com</host>-->
+			<host>PITC-Zscaler-AmericasZ.proxy.corporate.ge.com</host>
+			<port>80</port>
 			<nonProxyHosts>*.ge.com|api.ges-apps.ice.ge.com|api.grc-apps.svc.ice.ge.com|login.grc-apps.svc.ice.ge.com|loggregator.grc-apps.svc.ice.ge.com|uaa.grc-apps.svc.ice.ge.com|console.grc-apps.svc.ice.ge.com</nonProxyHosts>
 		</proxy>
 		<proxy>
